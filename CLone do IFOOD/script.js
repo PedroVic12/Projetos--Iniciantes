@@ -69,7 +69,6 @@ function FinalizarPedido() {
 
     mensagem = "Olá, eu gostaria de pedir um combo: " + prato + ", " + bebida + " e " + sobremesa;
 
-    alert(mensagem);
 
     window.open("https://wa.me/+5521999289987?text=" + mensagem)
 }
