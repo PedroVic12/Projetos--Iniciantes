@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+}
+
+.cabecalho {
+    font-size: 20px;
+    flex-basis: 20%;
+}
+.cabeçalho_logo {
+}
+.cabeçalho_logo img {
+    margin-bottom: 30px;
+}
+
+.cabeçalho_navegação {
+}
+.cabeçalho_lista {
+}
+.cabeçalho_lista_item {
+    margin-bottom: 25px;
+}
+.cabeçalho_lista_item img {
+    max-width: 26px;
+}
+.cabeçalho_lista_item a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+main {} 
+
+
+.CounteudoPrincipal{
+    flex-basis: 80%;
+    margin-left: 0 auto;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
+    margin-left: 100px;
+
+
+}
+.CounteudoPrincipal_titulo {
+    padding: 10px 30px ;
+    
+}
+.CounteudoPrincipal_formulario {
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+.CounteudoPrincipal_formulario textarea{
+   display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 60px;
+}
+.CounteudoPrincipal_formulario button {
+    background-color: #1da1f2;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+}
+
+.CounteudoPrincipal_feed {
+    
+}
+.CounteudoPrincipal_listaTweet {
+}
+.CounteudoPrincipal_tweet {
+    padding: 20px 30px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+.CounteudoPrincipal_tweet img {
+}
+.CounteudoPrincipal_tweet_conteudo {
+    margin-left: 15px;
+}
+.CounteudoPrincipal_tweet_conteudo h2 {
+    display: inline-block;
+}
+.CounteudoPrincipal_tweet_conteudo p {
+    margin-top: 15px
+    color #3333;
+}
+.CounteudoPrincipal_tweet_conteudo span {
+    display: inline-block;
+    color: #828282;
+}
