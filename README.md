@@ -1,3 +1,3 @@
-# Projetos-Inician
+# Projetos-Iniciantes
 
-Esse projeto tenta fazer o basico de app de comida.
+
