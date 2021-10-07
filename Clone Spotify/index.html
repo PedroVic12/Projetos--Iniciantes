@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <title>Clone spotify by Zenzie</title>
+  </head>
+  <body>
+   
+    <main> 
+
+      <aside class="side-bar-menu-navegação">
+        <img src="src/img/logo.png" alt="Logo" />
+        <nav class="menu-navegação">
+          <ul class="lista-links">
+            <li>
+              <img src="src/img/icone1.png" alt="" />
+              <a href="#" class="home">Home</a>
+            </li>
+            <li>
+                <img src="src/img/icone2.png" alt="">
+              <a href="#"> Pesquisar</a>
+            </li>
+            <li>
+                <img src="src/img/icone3.png" alt="">
+              <a href="#"> Musicas curtidas</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <SEction class="seção-musicas">
+        <header class="cabeçalho">
+
+            <div class="user">
+                <img src="src/img/user.png" alt="usuario">
+                <h2>Pedro Victor</h2>
+            </div>
+
+                <div class="qtd-musicas">
+                    <p>1158 musicas</p>
+                </div>
+
+           
+        </header>
+
+        <div class="area-lista-musicas">
+            <button id="btn-pause">Pause</button>
+            <div class="info-musicas">
+                <p class=".primeiro-item">Titulo</p>
+                <p>Artista</p>
+                <p>Album</p>
+            </div>
+
+            <ul class="lista-musicas">
+              
+            </ul>
+        </div>
+      </SEction>
+
+      <section class="area-palyer">
+        <audio src="" id="tag-audio"></audio>
+
+          <div class="info-musica-atual">
+              <figure class="imagem-album">
+                  <img id="fotoAlbum" src="src/img/album4.png" alt="Album">
+                  <figcaption>Legenda</figcaption>
+              </figure>
+
+                <div class="info-album">
+                  <h2 id="nomeMusica">Nome da musica</h2>
+                  <p id="nomeAlbum">Banda</p>
+                </div>
+          </div>
+
+          <div class="area-player-controles">
+              <button id="btn-prev"></button>
+              <button id="btn-play"></button>
+              <button id="btn-next"></button>
+          </div>
+
+          <div class="area-player-volume">
+              <input type="range" max="1" value="1" step="0.1">
+          </div>
+      </section>
+
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

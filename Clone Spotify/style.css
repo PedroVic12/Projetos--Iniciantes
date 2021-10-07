@@ -1,0 +1,225 @@
+/* Estilos gerais */
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+body, main, div, section, a, ul, li, img, figure , p, nav, h2{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+/* Aside */
+.side-bar-menu-navegação{
+    width: 15%;
+    padding: 30px;
+    height: calc(100% - 167px);
+}
+
+.side-bar-menu-navegação > img{
+    margin-bottom: 15px;
+}
+
+.menu-navegação{}
+
+.lista-links{}
+
+.home{
+    background-color: blue;
+    width: 33%;
+    padding: 5px;
+    border-radius:10px;
+}
+
+.lista-links > li{
+margin-bottom: 15px;
+}
+
+.lista-links > li > a{ 
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.lista-links > li > a > img{
+   width: 28px;
+   margin-right: 20px;
+}
+
+/* section 1 (MUSICAS) */
+
+.seção-musicas{
+    width: 70%;
+    background-color: #181818;
+}
+
+.cabeçalho{
+    background-image: url(src/img/header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+}
+
+.user{
+    
+}
+
+.user > img{
+    margin-right: 20px;
+}
+
+.user > h2{
+    font-weight: 600;
+}
+
+.qtd-musicas{
+position: absolute;
+
+left: 80px;
+bottom: 20px;
+}
+
+.qtd-musicas > p{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.area-lista-musicas{
+    padding: 20px 80px;
+}
+
+#btn-pause{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px 17px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.info-musicas{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1PX solid grey;
+    padding: 8px 56px;
+} /* Cabeçalho info musicas */
+
+.info-musicas > .primeiro-item{
+    width: 60%;
+}
+    
+.info-musicas > p{
+    width: 30%;
+}
+.lista-musicas{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.lista-musicas > li{
+    justify-content: space-around;
+    border-bottom: 1PX solid grey;
+    padding: 8px 56px;
+    display: flex;
+    
+}
+
+.lista-musicas > li > p{
+    width: 50%;
+}
+.lista-musicas > li > .primeiro-item{
+    width: 60%;
+}
+
+/* section 2 area de musicas */
+
+.area-palyer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+    height: 100px;
+    border-top: 1px solid white;
+}
+
+.info-musica-atual{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-album{
+    
+}
+
+.imagem-album > img{
+    margin-right: 30px;
+}
+
+.imagem-album > figcaption{}
+
+.info-musica-atual > h2{
+    margin-bottom: 5px;
+    
+}
+
+figcaption{
+    display: none;
+}
+
+.info-musica-atual > p{}
+
+.area-player-controles{
+
+}
+
+
+.area-player-controles > button{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    background-position: center;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    
+}
+#btn-prev{
+    background-image: url(src/img/previous.png);
+}
+
+#btn-play{
+    background-image: url(src/img/play.png);
+    background-size: cover;
+    margin: 0 20px;
+}
+
+
+#btn-next{
+    background-image: url(src/img/next.png);
+}
+
+.area-player-volume{
+    background-image: url(src/img/volume.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+}
